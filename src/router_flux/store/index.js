@@ -1,7 +1,11 @@
 /**
  * Created by lemon on 2017/1/19.
  */
-import {createStore, applyMiddleware, combineReducers} from 'redux';
+import {
+    createStore,
+    applyMiddleware,
+    combineReducers
+} from 'redux';
 import thunk from 'redux-thunk';
 import * as reducers from '../reducers';
 const logger = store => next => action => {

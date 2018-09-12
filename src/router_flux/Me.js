@@ -9,7 +9,7 @@ export default class Me extends Component{
     render(){
         return (
             <View>
-                <Text>me</Text>
+                <Text>方博客</Text>
             </View>
         );
     }
